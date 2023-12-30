@@ -377,10 +377,7 @@ public class SudokuGame extends JFrame implements ActionListener {
 			display2(state);
 			if(model.isSuccess()) {
 				lbMessage.setText("New game has been created successfully");
-			}else {
-				lbMessage.setText("New game has been created unsuccessfully");
 			}
-			
 			System.out.println("Complete");
 		}
 		if (e.getSource() == jbSolved) {
