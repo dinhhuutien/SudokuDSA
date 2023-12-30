@@ -253,8 +253,8 @@ public class SudokuGame extends JFrame implements ActionListener {
 			}
 		}
 		if (win == true) {
-			JOptionPane.showMessageDialog(this, "Congratulations you are winner");
-			lbMessage.setText("Winer !!!\n New game");
+			JOptionPane.showMessageDialog(this, "Congratulations you won");
+			lbMessage.setText("Winner !!!\n New game");
 		}else {
 			lbMessage.setText(numberCellIllegal+" Difficulty");
 		}
