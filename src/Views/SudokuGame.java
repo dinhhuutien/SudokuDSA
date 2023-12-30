@@ -128,7 +128,7 @@ public class SudokuGame extends JFrame implements ActionListener {
 		comboBox.setForeground(Color.white);
 		comboBox.setOpaque(true);
 
-		JLabel label = new JLabel("Difficulty: ");
+		JLabel label = new JLabel("Error: ");
 		JPanel headerPanel = new JPanel();
 		headerPanel.add(label);
 		headerPanel.add(comboBox);
