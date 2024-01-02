@@ -182,13 +182,13 @@ public class Population {
 	public void solveGame() {
 
 		if (solve()) {
-			System.out.println("Táº¡o ThÃ nh cÃ´ng");
+			System.out.println("Create successfully");
 			display2(lastGenome.getState());
 			isMakeNewGameSuccess=true;
-			System.out.println("HÃ m Ä‘Ã¡nh giÃ¡: " + calculateFitness(lastGenome.getState()));
+			System.out.println("Create successfully: " + calculateFitness(lastGenome.getState()));
 
 		} else {
-			System.out.println("Tháº¥t báº¡i");
+			System.out.println("Failure");
 			isMakeNewGameSuccess=false;
 		}
 		GenomeFamily.clear();
