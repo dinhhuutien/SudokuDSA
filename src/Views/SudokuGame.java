@@ -128,7 +128,7 @@ public class SudokuGame extends JFrame implements ActionListener {
 		comboBox.setForeground(Color.white);
 		comboBox.setOpaque(true);
 
-		JLabel label = new JLabel("Error: ");
+		JLabel label = new JLabel("Difficulty: ");
 		JPanel headerPanel = new JPanel();
 		headerPanel.add(label);
 		headerPanel.add(comboBox);
@@ -256,7 +256,7 @@ public class SudokuGame extends JFrame implements ActionListener {
 			JOptionPane.showMessageDialog(this, "Congratulations you won");
 			lbMessage.setText("Winner !!!\n New game");
 		}else {
-			lbMessage.setText(numberCellIllegal+" Difficulty");
+			lbMessage.setText(numberCellIllegal+" Error");
 		}
 		numberCellIllegal=0;
 	}
